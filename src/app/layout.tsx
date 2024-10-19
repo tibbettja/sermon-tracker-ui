@@ -1,17 +1,19 @@
 import type { Metadata } from "next";
 import React from "react";
-import { Turret_Road } from "next/font/google";
+import { Platypi } from "next/font/google";
 import "@/styles/globals.css";
 
-const turretRoad = Turret_Road({
-  variable: "--font-turret",
-  weight: ["200","300","400","500","700","800"],
-  subsets: ["latin"]
+const platypi = Platypi({
+  weight: "variable",
+  subsets: ["latin"],
+  style: ["normal","italic"],
+  variable: '--font-platypi',
+  display: 'swap'
 });
 
 export const metadata: Metadata = {
-  title: "Joey Tibbett Portfolio",
-  description: "Portfolio of Joey Tibbett",
+  title: "Sermon Tracker",
+  description: "",
 };
 
 export default function RootLayout({
@@ -22,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${turretRoad.variable} antialiased`}
+        className={`${platypi.variable} antialiased`}
       >
         {children}
       </body>

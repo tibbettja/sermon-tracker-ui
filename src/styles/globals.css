@@ -17,7 +17,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: var(--font-turret), 'Courier New', Courier, monospace;
+  font-family: var(--font-platypi), 'Courier New', Courier, monospace;
 }
 
 @layer utilities {

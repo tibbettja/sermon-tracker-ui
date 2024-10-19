@@ -1,0 +1,12 @@
+{
+    "prettier.experimentalTernaries": true,
+    "prettier.endOfLine": "crlf",
+    "prettier.configPath": ".prettierrc",
+    "vs-code-prettier-eslint.prettierLast": false,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleAttributePerLine": true,
+    "prettier.singleQuote": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.tabSize": 2
+}
