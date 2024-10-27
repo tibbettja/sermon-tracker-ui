@@ -1,6 +1,6 @@
 import pino from 'pino'
 
-import logLevelData from '@/configs/logConfig'
+import logLevelData from '@/@core/configs/logConfig'
 type logLevelOptions = typeof logLevelData
 type LogOption = keyof logLevelOptions
 

@@ -2,7 +2,7 @@ import NextAuth, { NextAuthOptions } from 'next-auth'
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { unstable_noStore as noStore } from 'next/cache'
 import DiscordProvider from 'next-auth/providers/discord'
-import { getLogger } from '@/utils/logger'
+import { getLogger } from '@/@core/utils/logger'
 
 const logger = getLogger('AUTH')
 

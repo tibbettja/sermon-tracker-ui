@@ -10,5 +10,6 @@
     "quoteProps": "as-needed",
     "singleQuote": true,
     "singleAttributePerLine": true,
-    "semi": false
+    "semi": false,
+    "printWidth": 120
 }
