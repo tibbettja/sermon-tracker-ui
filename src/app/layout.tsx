@@ -1,63 +1,58 @@
-import React from 'react'
-import type { Metadata } from 'next'
-import { cookies } from 'next/headers'
-import { getCookie, hasCookie } from 'cookies-next'
+import ClientApp from '@/app/client'
+import type { Metadata, Viewport } from 'next'
+import { ReactNode } from 'react'
+
+import fonts from '@/@core/theme/fonts'
 import { getServerSession } from 'next-auth'
-import { Platypi, Fraunces } from 'next/font/google'
-
 import { authOptions } from './api/auth/[...nextauth]/route'
-import appConfig from '@/@core/configs/appConfig'
-
-import '@/styles/globals.css'
-
-import RootLayout from '@/@core/layouts/RootLayout'
-
-const themeCookie = 'sermon-tracker-ui_theme-mode'
-
-const fraunces = Fraunces({
-  weight: 'variable',
-  subsets: ['latin'],
-  style: ['normal', 'italic'],
-  variable: '--font-fraunces',
-  display: 'swap'
-})
 
 export const metadata: Metadata = {
-  title: appConfig.appName,
-  description: appConfig.appName
+  title: 'Tibbett JA',
+  description: 'Personal Project'
 }
 
-export const viewport = {
-  'initial-scale': 1,
-  width: 'device-width'
+export const viewport: Viewport = {
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#E9D8A6' },
+    { media: '(prefers-color-scheme: dark)', color: '#001219' }
+  ],
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false
 }
 
-const App = async ({
-  children
-}: Readonly<{
-  children: React.ReactNode
-}>) => {
+export type ServerAppProps = { children: ReactNode }
+export type ThemeSettings = { themeColor: string; mode: 'light' | 'dark'; contentWidth: number }
+const initialThemeSettings: ThemeSettings = {
+  themeColor: 'primary',
+  mode: 'light',
+  contentWidth: 800
+}
+
+const ServerApp = async ({ children }: ServerAppProps) => {
   const session = await getServerSession(
-    authOptions(process.env.DISCORD_CLIENT_ID || '', process.env.DISCORD_CLIENT_SECRET || '')
+    authOptions(
+      process.env.DISCORD_CLIENT_ID || 'DISCORD_CLIENT_ID',
+      process.env.DISCORD_CLIENT_SECRET || 'DISCORD_CLIENT_SECRET',
+      process.env.AUTH_ENABLED === '1'
+    )
   )
-
-  const defaultMode =
-    hasCookie(themeCookie, { cookies }) ?
-      Buffer.from(getCookie(themeCookie, { cookies }) || '', 'base64').toString()
-    : 'light'
-
   return (
     <html lang='en'>
-      <body className={`${fraunces.variable} antialiased`}>
-        <RootLayout
-          session={session}
-          defaultMode={defaultMode === 'dark' ? 'dark' : 'light'}>
+      <body className={fonts.spaceGrotesk.variable}>
+        <ClientApp
+          initialThemeSettings={initialThemeSettings}
+          baseURL={process.env.BASE_URL || 'baseUrl'}
+          proxyURL={process.env.PROXY_URL || 'proxyUrl'}
+          authEnabled={process.env.AUTH_ENABLED === '1'}
+          session={session}>
           {children}
-        </RootLayout>
+        </ClientApp>
       </body>
     </html>
   )
 }
 
-export default App
+export default ServerApp
 

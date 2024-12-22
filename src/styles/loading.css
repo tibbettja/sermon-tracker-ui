@@ -1,0 +1,18 @@
+@keyframes cycle {
+  0% { transform: translateX(0%);  }
+  50% { transform:  translateX(5%); }
+  100% { transform: translateX(0%); }
+}
+
+.line-1  { animation: cycle 8s ease-in-out 0s infinite; position: relative; }
+.line-2  { animation: cycle 8s ease-in-out .25s infinite; position: relative; }
+.line-3  { animation: cycle 8s ease-in-out .5s infinite; position: relative; }
+.line-4  { animation: cycle 8s ease-in-out .75s infinite; position: relative; }
+.line-5  { animation: cycle 8s ease-in-out 1s infinite; position: relative; }
+.line-6  { animation: cycle 8s ease-in-out 1.33s infinite; position: relative; }
+.line-7  { animation: cycle 8s ease-in-out 1.25s infinite; position: relative; }
+.line-8  { animation: cycle 8s ease-in-out 1s infinite; position: relative; }
+.line-9  { animation: cycle 8s ease-in-out .75s infinite; position: relative; }
+.line-10 { animation: cycle 8s ease-in-out .5s infinite; position: relative; }
+.line-11 { animation: cycle 8s ease-in-out .25s infinite; position: relative; }
+.line-12 { animation: cycle 8s ease-in-out 0s infinite; position: relative; }
