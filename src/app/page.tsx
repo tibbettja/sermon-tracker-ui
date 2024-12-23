@@ -1,4 +1,6 @@
+import Client from './dashboard/client'
+
 export default function Home() {
-  return <>HomePage</>
+  return <Client />
 }
 

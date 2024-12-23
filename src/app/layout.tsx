@@ -35,6 +35,7 @@ const ServerApp = async ({ children }: ServerAppProps) => {
     authOptions(
       process.env.DISCORD_CLIENT_ID || 'DISCORD_CLIENT_ID',
       process.env.DISCORD_CLIENT_SECRET || 'DISCORD_CLIENT_SECRET',
+      process.env.DISCORD_ROLE_SERVER_ID || 'DISCORD_ROLE_SERVER_ID',
       process.env.AUTH_ENABLED === '1'
     )
   )
@@ -55,4 +56,5 @@ const ServerApp = async ({ children }: ServerAppProps) => {
 }
 
 export default ServerApp
+
 

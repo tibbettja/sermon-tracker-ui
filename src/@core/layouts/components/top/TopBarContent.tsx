@@ -6,6 +6,7 @@ import { Box, useMediaQuery, IconButton } from '@mui/material'
 import { Menu } from '@mui/icons-material'
 import { ThemeSettings } from '@/app/layout'
 import ModeToggler from './links/ModeToggler'
+import UserDropdown from './links/UserDropdown'
 
 export type TopBarContentProps = {
   hidden: boolean
@@ -46,6 +47,7 @@ const TopBarContent = ({ hidden, themeSettings, saveThemeSettings, toggleNavVisi
           themeSettings={themeSettings}
           saveThemeSettings={saveThemeSettings}
         />
+        <UserDropdown />
       </Box>
     </Box>
   )
