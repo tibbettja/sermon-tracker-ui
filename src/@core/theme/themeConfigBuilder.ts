@@ -10,7 +10,7 @@ const themeConfigBuilder = (settings: ThemeConfigBuilderProps) => {
   const themeConfig = {
     palette: DefaultPalette(settings.mode),
     typography: {
-      fontFamily: 'var(--font-space-grotesk)'
+      fontFamily: 'var(--font-museo-moderno)'
     },
     ...Spacing,
     breakpoints: Breakpoints(),

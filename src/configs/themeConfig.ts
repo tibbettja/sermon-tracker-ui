@@ -11,7 +11,7 @@ export type ThemeConfig = {
 
 const themeConfig: ThemeConfig = {
   appName: 'Tibbett JA',
-  mode: 'light',
+  mode: 'dark',
   contentWidth: 'full',
   routingLoader: true,
   menuTextTruncate: true,

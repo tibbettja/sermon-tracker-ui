@@ -1,20 +1,27 @@
 'use client'
 
-import { Box, useTheme } from '@mui/material'
+import themeConfig from '@/configs/themeConfig'
+import { Box, useTheme, useMediaQuery } from '@mui/material'
 
 const Footer = () => {
   const theme = useTheme()
+  const isMedium = useMediaQuery((theme) => theme.breakpoints.down('lg'), { defaultMatches: true })
 
   return (
     <Box
       component='footer'
       className='layout-footer'
       sx={{
-        zIndex: 10,
+        zIndex: 1,
         display: 'flex',
         alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: theme.palette.background.default
+        justifyContent: 'left',
+        backgroundColor: theme.palette.background.default,
+        position: 'fixed',
+        bottom: 0,
+        left: isMedium ? 0 : themeConfig.navigationSize,
+        width: '100%',
+        paddingLeft: theme.spacing(6)
       }}>
       <Box
         className='footer-content-container'

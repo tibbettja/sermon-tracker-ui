@@ -19,7 +19,7 @@ const DefaultPalette = (mode: PaletteProps) => {
     primary: {
       light: '#0085A1', // Blue (Munsell)
       main: '#005F73', // Midnight Green
-      dark: '002C36', // Gunmetal
+      dark: '#004A59', // Gunmetal
       contrastText: '#FFF'
     },
     secondary: {
@@ -34,6 +34,12 @@ const DefaultPalette = (mode: PaletteProps) => {
       dark: '#669183', // Viridian
       contrastText: '#000'
     },
+    success: {
+      light: '#748244', // Reseda Green
+      main: '#606C38', // Dark Moss Green
+      dark: '#3B4222', // Drab Dark Brown
+      contrastText: '#FFF'
+    },
     attention: {
       light: '#FFA600', // Orange (web)
       main: '#EE9B00', // Gamboge
@@ -44,7 +50,7 @@ const DefaultPalette = (mode: PaletteProps) => {
       light: '#FA7F02', // Orange Wheel
       main: '#CA6702', // Alloy Orange
       dark: '#B05A02', // Burnt Orange
-      contrastText: '#000'
+      contrastText: '#FFF'
     },
     error: {
       light: '#D92716', // Chili Red
@@ -87,8 +93,8 @@ const DefaultPalette = (mode: PaletteProps) => {
     },
     divider: `rgba(${mainColor}, 0.12)`,
     background: {
-      paper: mode === 'light' ? '#FFEDB5' : '#00374D',
-      default: mode === 'light' ? '#E9D8A6' : '#001219'
+      paper: mode === 'light' ? '#FFEDDB' : '#001219',
+      default: mode === 'light' ? '#E8D8C8' : '#000405'
     },
     action: {
       active: `rgba(${mainColor}, 0.54)`,

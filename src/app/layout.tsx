@@ -13,8 +13,8 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#E9D8A6' },
-    { media: '(prefers-color-scheme: dark)', color: '#001219' }
+    { media: '(prefers-color-scheme: light)', color: '#E8D8C8' },
+    { media: '(prefers-color-scheme: dark)', color: '#000405' }
   ],
   width: 'device-width',
   initialScale: 1,
@@ -26,7 +26,7 @@ export type ServerAppProps = { children: ReactNode }
 export type ThemeSettings = { themeColor: string; mode: 'light' | 'dark'; contentWidth: number }
 const initialThemeSettings: ThemeSettings = {
   themeColor: 'primary',
-  mode: 'light',
+  mode: 'dark',
   contentWidth: 800
 }
 
@@ -36,12 +36,15 @@ const ServerApp = async ({ children }: ServerAppProps) => {
       process.env.DISCORD_CLIENT_ID || 'DISCORD_CLIENT_ID',
       process.env.DISCORD_CLIENT_SECRET || 'DISCORD_CLIENT_SECRET',
       process.env.DISCORD_ROLE_SERVER_ID || 'DISCORD_ROLE_SERVER_ID',
+      process.env.DISCORD_BOT_TOKEN || 'DISCORD_BOT_TOKEN',
       process.env.AUTH_ENABLED === '1'
     )
   )
   return (
     <html lang='en'>
-      <body className={fonts.spaceGrotesk.variable}>
+      <body
+        className={fonts.museoModerno.variable}
+        style={{ backgroundColor: 'red' }}>
         <ClientApp
           initialThemeSettings={initialThemeSettings}
           baseURL={process.env.BASE_URL || 'baseUrl'}
@@ -56,5 +59,11 @@ const ServerApp = async ({ children }: ServerAppProps) => {
 }
 
 export default ServerApp
+
+
+
+
+
+
 
 

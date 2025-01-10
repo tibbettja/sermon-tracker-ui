@@ -13,7 +13,8 @@ import themeConfig from '@/configs/themeConfig'
 const BaseLayoutWrapper = styled('div')(({ theme }) => ({
   height: '100%',
   display: 'flex',
-  backgroundColor: theme.palette.background.default
+  backgroundColor: theme.palette.background.default,
+  paddingBottom: theme.spacing(14)
 }))
 
 const MainContentWrapper = styled(Box)({

@@ -2,7 +2,9 @@
 
 import * as React from 'react'
 
-import { styled, AppBar, Toolbar } from '@mui/material'
+import { useSession } from 'next-auth/react'
+
+import { styled, AppBar, Toolbar, useTheme } from '@mui/material'
 import type { ThemeSettings } from '@/app/layout'
 import themeConfig from '@/configs/themeConfig'
 import TopBarContent from './TopBarContent'
@@ -18,13 +20,14 @@ const StyledAppBar = styled(AppBar)(({ theme }) => ({
   position: 'fixed',
   [theme.breakpoints.down('sm')]: {
     paddingX: theme.spacing(4)
-  }
+  },
+  zIndex: 1
 }))
 
 const StyledToolBar = styled(Toolbar)(({ theme }) => ({
   width: '100%',
-  borderBottomLeftRadius: 10,
-  borderBottomRightRadius: 10,
+  borderBottomLeftRadius: 5,
+  borderBottomRightRadius: 5,
   padding: `0px !important`,
   minHeight: `${theme.mixins.toolbar.minHeight}px !important`,
   transition:
@@ -39,6 +42,8 @@ export type TopBarProps = {
 }
 
 const TopBar = ({ hidden, toggleNavVisibility, saveThemeSettings, themeSettings }: TopBarProps) => {
+  const { data: session, status } = useSession()
+  const theme = useTheme()
   return (
     <StyledAppBar
       elevation={0}
@@ -50,7 +55,15 @@ const TopBar = ({ hidden, toggleNavVisibility, saveThemeSettings, themeSettings 
           ? { marginLeft: themeConfig.navigationSize, width: `calc(100vw - ${themeConfig.navigationSize}px)` }
           : undefined
       }>
-      <StyledToolBar className='navbar-content-container'>
+      <StyledToolBar
+        className='navbar-content-container'
+        sx={
+          status === 'authenticated'
+            ? {
+                borderBottom: `2px solid ${session.user?.accentColor || theme.palette.success.main} !important`
+              }
+            : { backgroundColor: 'white' }
+        }>
         <TopBarContent
           hidden={hidden}
           themeSettings={themeSettings}

@@ -6,6 +6,7 @@ import { signOut, useSession } from 'next-auth/react'
 
 import { useTheme, Avatar, Alert, Badge, Box, Divider, Menu, MenuItem, styled, Typography } from '@mui/material'
 import { useRouter } from 'next/navigation'
+import { LogoutSharp } from '@mui/icons-material'
 
 const BadgeContentHealthy = styled('span')(({ theme }) => ({
   width: 8,
@@ -112,6 +113,13 @@ const UserDropdown = ({ adminError }: UserDropdownProps) => {
             </Box>
           </Box>
         </Box>
+        <Divider sx={{ marginTop: 0, marginBottom: 1 }} />
+        <MenuItem
+          sx={{ paddingY: 2 }}
+          onClick={() => handleSignout()}>
+          <LogoutSharp sx={{ marginRight: 2, fontSize: '1.375rem', color: theme.palette.text.secondary }} />
+          Logout
+        </MenuItem>
       </Menu>
     </>
   )

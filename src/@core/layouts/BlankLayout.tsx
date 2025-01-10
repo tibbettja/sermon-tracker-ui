@@ -23,8 +23,10 @@ export type BlankLayoutProps = { children: ReactNode }
 
 const BlankLayout = ({ children }: BlankLayoutProps) => (
   <BlankLayoutWrapper className='layout-wrapper'>
-    <Box className='app-content' sx={{ minHeight: '100%', overflowX: 'hidden', position: 'relative '}}>
-      { children }
+    <Box
+      className='app-content'
+      sx={{ minHeight: '100%', overflowX: 'hidden', position: 'relative' }}>
+      {children}
     </Box>
   </BlankLayoutWrapper>
 )

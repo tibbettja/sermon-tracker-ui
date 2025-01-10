@@ -1,6 +1,7 @@
 import { Fragment, ReactNode } from "react"
 
 import { useMediaQuery, styled, useTheme } from "@mui/system"
+import themeConfig from '@/configs/themeConfig'
 
 const MaskImg = styled('img')(() => ({
   bottom: 0,
@@ -10,7 +11,7 @@ const MaskImg = styled('img')(() => ({
 }))
 
 const TreeImg = styled('img')(({ theme }) => ({
-  left: '2.25rem',
+  left: `calc(2.25rem + ${themeConfig.navigationSize}px)`,
   bottom: '4.25rem',
   position: 'absolute',
   [theme.breakpoints.down('lg')]: {
