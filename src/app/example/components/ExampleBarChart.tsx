@@ -1,30 +1,30 @@
 'use client'
 
-import { LineChart, Line, XAxis, YAxis } from 'recharts'
+import { BarChart, Bar, XAxis, YAxis } from 'recharts'
 import { useTheme, Card, CardContent, CardHeader } from '@mui/material'
 import data from './data.json'
 
-const ExampleLineChart = () => {
+const ExampleBarChart = () => {
   const theme = useTheme()
   return (
     <Card>
-      <CardHeader title='Line Chart' />
+      <CardHeader title='Bar Chart' />
       <CardContent sx={{ display: 'flex', justifyContent: 'center' }}>
-        <LineChart
+        <BarChart
           width={400}
           height={400}
           data={data}>
-          <Line
+          <Bar
             type='monotone'
             dataKey='value'
-            stroke={theme.palette.success.light}
+            fill={theme.palette.primary.light}
           />
           <XAxis dataKey='name' />
           <YAxis />
-        </LineChart>
+        </BarChart>
       </CardContent>
     </Card>
   )
 }
 
-export default ExampleLineChart
+export default ExampleBarChart

@@ -14,6 +14,8 @@ import {
 } from '@mui/icons-material'
 import { Grid2 as Grid, Card, CardHeader, CardContent, Stack, Button, Alert } from '@mui/material'
 import ExampleLineChart from './components/ExampleLineChart'
+import ExampleBarChart from './components/ExampleBarChart'
+import ExampleAreaChart from './components/ExampleAreaChart'
 
 const Client = () => {
   return (
@@ -28,7 +30,8 @@ const Client = () => {
       <Grid
         size={6}
         container
-        gap={4}>
+        gap={4}
+        justifyContent='start'>
         <Grid size={12}>
           <Card>
             <CardHeader
@@ -227,8 +230,19 @@ const Client = () => {
           </Card>
         </Grid>
       </Grid>
-      <Grid size={6}>
-        <ExampleLineChart />
+      <Grid
+        size={6}
+        container
+        gap={4}>
+        <Grid size={12}>
+          <ExampleLineChart />
+        </Grid>
+        <Grid size={12}>
+          <ExampleBarChart />
+        </Grid>
+        <Grid size={12}>
+          <ExampleAreaChart />
+        </Grid>
       </Grid>
     </Grid>
   )
