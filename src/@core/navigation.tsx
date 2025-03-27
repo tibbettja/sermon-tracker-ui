@@ -1,6 +1,6 @@
 import type { NavItem } from './layouts/components/nav/NavItems'
 
-import { AutoStories, Biotech, Home } from '@mui/icons-material'
+import { AutoStories, Biotech, Home, DashboardOutlined } from '@mui/icons-material'
 
 const navigation = (path: string) => {
   const staticOptions: NavItem[] = [
@@ -23,6 +23,12 @@ const navigation = (path: string) => {
       title: 'Bible Reading Plan',
       path: '/brp',
       icon: <AutoStories />,
+      parent: false
+    },
+    {
+      title: 'Dashboard',
+      path: '/db',
+      icon: <DashboardOutlined />,
       parent: false
     }
   ]
