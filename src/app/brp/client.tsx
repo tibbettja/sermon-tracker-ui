@@ -1,7 +1,7 @@
 'use client'
 
 import * as React from 'react'
-import { Grid2 as Grid, Card, CardHeader, CardContent, Stack, Button, Alert } from '@mui/material'
+import { Grid, Card, CardHeader, CardContent, Stack, Button, Alert } from '@mui/material'
 import { DataGrid } from '@mui/x-data-grid'
 
 import year1 from './data/year_1.json'

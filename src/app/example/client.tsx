@@ -12,7 +12,7 @@ import {
   SaveAlt,
   Warning
 } from '@mui/icons-material'
-import { Grid2 as Grid, Card, CardHeader, CardContent, Stack, Button, Alert } from '@mui/material'
+import { Grid, Card, CardHeader, CardContent, Stack, Button, Alert } from '@mui/material'
 import ExampleLineChart from './components/ExampleLineChart'
 import ExampleBarChart from './components/ExampleBarChart'
 import ExampleAreaChart from './components/ExampleAreaChart'

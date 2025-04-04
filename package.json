@@ -13,12 +13,12 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@fontsource/roboto": "^5.1.0",
-    "@mui/icons-material": "^6.2.1",
-    "@mui/material": "^6.2.1",
-    "@mui/material-nextjs": "^6.2.1",
-    "@mui/x-data-grid": "^7.23.5",
+    "@mui/icons-material": "^7.0.0",
+    "@mui/material": "^7.0.0",
+    "@mui/material-nextjs": "^7.0.0",
+    "@mui/x-data-grid": "^7.28.3",
     "cookies-next": "^5.0.2",
-    "next": "15.1.2",
+    "next": "^15.1.2",
     "next-auth": "^4.24.11",
     "pino": "^9.5.0",
     "react": "^19.0.0",
@@ -36,3 +36,4 @@
     "typescript": "^5"
   }
 }
+
