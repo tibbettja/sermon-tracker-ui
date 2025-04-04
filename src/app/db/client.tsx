@@ -24,18 +24,20 @@ import {
   FormControl,
   InputLabel,
   MenuItem,
-  Box
+  Box,
+  useTheme
 } from '@mui/material'
 import LineChart from './components/LineChart'
 import RadialChart from './components/RadialChart'
 
 const Client = () => {
+  const theme = useTheme()
   return (
     <Grid
       container
       spacing={4}>
       <Grid size={12}>
-        <Card>
+        <Card raised={theme.palette.mode === 'dark'}>
           <CardHeader
             title='Example Page'
             subheader={
@@ -65,7 +67,7 @@ const Client = () => {
                 </FormControl>
                 &nbsp;&nbsp;&nbsp;
                 <Button
-                  variant='contained'
+                  variant={theme.palette.mode === 'dark' ? 'outlined' : 'contained'}
                   color='primary'
                   startIcon={<Preview />}>
                   View

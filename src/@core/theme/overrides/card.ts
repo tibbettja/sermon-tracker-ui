@@ -8,7 +8,18 @@ const Card = (theme: Theme) => ({
         '& .card-more-options': {
           marginTop: theme.spacing(-1),
           marginRight: theme.spacing(-3)
-        }
+        },
+        variants: [
+          {
+            props: { raised: true },
+            style: {
+              boxShadow: `inset 0 0 0.5em 0 ${theme.palette.info.dark}, 0 0 0.5em 0 ${theme.palette.info.main}`,
+              border: `solid 1px ${theme.palette.info.light}`,
+              color: theme.palette.info.light,
+              backgroundColor: 'transparent'
+            }
+          }
+        ]
       }
     }
   },

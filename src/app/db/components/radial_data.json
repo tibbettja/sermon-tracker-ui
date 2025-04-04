@@ -1,6 +1,6 @@
 [
-  { "name": "Sprint", "remaining": 0.93, "fill": "#CA6702" },
-  { "name": "Quarter", "remaining": 0.99, "fill": "#606C38" },
+  { "name": "Sprint", "remaining": 0.93, "fill": "#d28415" },
+  { "name": "Quarter", "remaining": 0.99, "fill": "#296B47" },
   { "name": "FYTD", "remaining": 0.85, "fill": "#D92716" },
   { "name": "", "remaining": 1, "fill": "transparent" }
 ]

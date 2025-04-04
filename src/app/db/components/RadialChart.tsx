@@ -14,7 +14,9 @@ const RadialChart = () => {
   const { width: cardWidth } = useContainerDimensions(cardRef)
 
   return (
-    <Card ref={cardRef}>
+    <Card
+      ref={cardRef}
+      raised={theme.palette.mode === 'dark'}>
       <CardHeader title='Error Budget Remaining' />
       <CardContent sx={{ display: 'flex', justifyContent: 'center' }}>
         <RadialBarChart

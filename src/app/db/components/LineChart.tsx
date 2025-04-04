@@ -14,7 +14,9 @@ const LineChart = () => {
   const { width: cardWidth } = useContainerDimensions(cardRef)
 
   return (
-    <Card ref={cardRef}>
+    <Card
+      ref={cardRef}
+      raised={theme.palette.mode === 'dark'}>
       <CardHeader title='Availability vs Latency vs Burn Rate' />
       <CardContent sx={{ display: 'flex', justifyContent: 'center' }}>
         <ComposedChart
