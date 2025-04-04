@@ -1,0 +1,14 @@
+[
+  { "name": "Jan", "burnRate": 1, "availability": 96, "latency": 98, "remaining": 100 },
+  { "name": "Feb", "burnRate": 1, "availability": 87, "latency": 91, "remaining": 99 },
+  { "name": "Mar", "burnRate": 3, "availability": 86, "latency": 91, "remaining": 96 },
+  { "name": "Apr", "burnRate": 4, "availability": 74, "latency": 96, "remaining": 92 },
+  { "name": "May", "burnRate": 9, "availability": 88, "latency": 95, "remaining": 83 },
+  { "name": "Jun", "burnRate": 5, "availability": 91, "latency": 95, "remaining": 78 },
+  { "name": "Jul", "burnRate": 3, "availability": 81, "latency": 95, "remaining": 75 },
+  { "name": "Aug", "burnRate": 5, "availability": 96, "latency": 93, "remaining": 70 },
+  { "name": "Sep", "burnRate": 1, "availability": 95, "latency": 96, "remaining": 69 },
+  { "name": "Oct", "burnRate": 0, "availability": 95, "latency": 97, "remaining": 69 },
+  { "name": "Nov", "burnRate": 1, "availability": 95, "latency": 96, "remaining": 68 },
+  { "name": "Dec", "burnRate": 2, "availability": 93, "latency": 94, "remaining": 66 }
+]

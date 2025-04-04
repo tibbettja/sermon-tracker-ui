@@ -1,6 +1,6 @@
-import React from 'react'
+import Client from './dashboard/client'
 
 export default function Home() {
-  return <>Landing Page</>
+  return <Client />
 }
 

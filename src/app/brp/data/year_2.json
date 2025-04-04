@@ -1,0 +1,522 @@
+[
+	{
+		"Week": "1",
+		"Sunday": "Rom:1-2",
+		"Monday": "Gen:1-3",
+		"Tuesday": "Matt:1-2",
+		"Wednesday": "Rom:3-4",
+		"Thursday": "Josh:1-5",
+		"Friday": "Ps:1-2",
+		"Saturday": "Matt:3-4"
+	},
+	{
+		"Week": "2",
+		"Sunday": "Rom:5-6",
+		"Monday": "Gen:4-7",
+		"Tuesday": "Matt:5-7",
+		"Wednesday": "Rom:7-8",
+		"Thursday": "Josh:6-10",
+		"Friday": "Ps:3-5",
+		"Saturday": "Matt:8-10"
+	},
+	{
+		"Week": "3",
+		"Sunday": "Rom:9-10",
+		"Monday": "Gen:8-11",
+		"Tuesday": "Matt:11-13",
+		"Wednesday": "Rom:11-12",
+		"Thursday": "Josh:11-15",
+		"Friday": "Ps:6-8",
+		"Saturday": "Matt:14-16"
+	},
+	{
+		"Week": "4",
+		"Sunday": "Rom:13-14",
+		"Monday": "Gen:12-15",
+		"Tuesday": "Matt:17-19",
+		"Wednesday": "Rom:15-16",
+		"Thursday": "Josh:16-20",
+		"Friday": "Ps:9-11",
+		"Saturday": "Matt:20-22"
+	},
+	{
+		"Week": "5",
+		"Sunday": "1_Cor:1-2",
+		"Monday": "Gen:16-19",
+		"Tuesday": "Matt:23-25",
+		"Wednesday": "1_Cor:3-4",
+		"Thursday": "Josh:21-24",
+		"Friday": "Ps:12-14",
+		"Saturday": "Matt:26-28"
+	},
+	{
+		"Week": "6",
+		"Sunday": "1_Cor:5-6",
+		"Monday": "Gen:20-23",
+		"Tuesday": "Mark:1-2",
+		"Wednesday": "1_Cor:7-8",
+		"Thursday": "Judg:1-6",
+		"Friday": "Ps:15-17",
+		"Saturday": "Mark:3-4"
+	},
+	{
+		"Week": "7",
+		"Sunday": "1_Cor:9-10",
+		"Monday": "Gen:24-27",
+		"Tuesday": "Mark:5-6",
+		"Wednesday": "1_Cor:11-12",
+		"Thursday": "Judg:7-11",
+		"Friday": "Ps:18-20",
+		"Saturday": "Mark:7-8"
+	},
+	{
+		"Week": "8",
+		"Sunday": "1_Cor:13-14",
+		"Monday": "Gen:28-31",
+		"Tuesday": "Mark:9-10",
+		"Wednesday": "1_Cor:15-16",
+		"Thursday": "Judg:12-16",
+		"Friday": "Ps:21-23",
+		"Saturday": "Mark:11-12"
+	},
+	{
+		"Week": "9",
+		"Sunday": "2_Cor:1-3",
+		"Monday": "Gen:32-35",
+		"Tuesday": "Mark:13-14",
+		"Wednesday": "2_Cor:4-5",
+		"Thursday": "Judg:17-21",
+		"Friday": "Ps:24-26",
+		"Saturday": "Mark:15-16"
+	},
+	{
+		"Week": "10",
+		"Sunday": "2_Cor:6-8",
+		"Monday": "Gen:36-39",
+		"Tuesday": "Luke:1-2",
+		"Wednesday": "2_Cor:9-10",
+		"Thursday": "Ruth",
+		"Friday": "Ps:27-29",
+		"Saturday": "Luke:3-4"
+	},
+	{
+		"Week": "11",
+		"Sunday": "2_Cor:11-13",
+		"Monday": "Gen:40-43",
+		"Tuesday": "Luke:5-6",
+		"Wednesday": "Gal:1-3",
+		"Thursday": "1_Sam:1-5",
+		"Friday": "Ps:30-32",
+		"Saturday": "Luke:7-8"
+	},
+	{
+		"Week": "12",
+		"Sunday": "Gal:4-6",
+		"Monday": "Gen:44-47",
+		"Tuesday": "Luke:9-10",
+		"Wednesday": "Eph:1-3",
+		"Thursday": "1_Sam:6-10",
+		"Friday": "Ps:33-35",
+		"Saturday": "Luke:11-12"
+	},
+	{
+		"Week": "13",
+		"Sunday": "Eph:4-6",
+		"Monday": "Gen:48-50",
+		"Tuesday": "Luke:13-14",
+		"Wednesday": "Phil:1-2",
+		"Thursday": "1_Sam:11-15",
+		"Friday": "Ps:36-38",
+		"Saturday": "Luke:15-16"
+	},
+	{
+		"Week": "14",
+		"Sunday": "Phil:3-4",
+		"Monday": "Ex:1-4",
+		"Tuesday": "Luke:17-18",
+		"Wednesday": "Col:1-2",
+		"Thursday": "1_Sam:16-20",
+		"Friday": "PS:39-41",
+		"Saturday": "Luke:19-20"
+	},
+	{
+		"Week": "15",
+		"Sunday": "Col:3-4",
+		"Monday": "Ex:5-8",
+		"Tuesday": "Luke:21-22",
+		"Wednesday": "1_Thes:1-3",
+		"Thursday": "1_Sam:21-25",
+		"Friday": "Ps:42-44",
+		"Saturday": "Luke:23-24"
+	},
+	{
+		"Week": "16",
+		"Sunday": "1_Thes:4-5",
+		"Monday": "Ex:9-12",
+		"Tuesday": "John:1-2",
+		"Wednesday": "2_Thes",
+		"Thursday": "1_Sam:26-31",
+		"Friday": "Ps:45-47",
+		"Saturday": "John:3-4"
+	},
+	{
+		"Week": "17",
+		"Sunday": "1_Tim:1-3",
+		"Monday": "Ex:13-16",
+		"Tuesday": "John:5-6",
+		"Wednesday": "1_Tim:4-6",
+		"Thursday": "2_Sam:1-4",
+		"Friday": "Ps:48-50",
+		"Saturday": "John:7-9"
+	},
+	{
+		"Week": "18",
+		"Sunday": "2_Tim:1-2",
+		"Monday": "Ex:17-20",
+		"Tuesday": "John:10-12",
+		"Wednesday": "2_Tim:3-4",
+		"Thursday": "2_Sam:5-9",
+		"Friday": "Ps:51-53",
+		"Saturday": "John:13-15"
+	},
+	{
+		"Week": "19",
+		"Sunday": "Titus_Philemon",
+		"Monday": "Ex:21-24",
+		"Tuesday": "John:16-18",
+		"Wednesday": "Heb:1-4",
+		"Thursday": "2_Sam:10-14",
+		"Friday": "Ps:54-56",
+		"Saturday": "John:19-21"
+	},
+	{
+		"Week": "20",
+		"Sunday": "Heb:5-7",
+		"Monday": "Ex:25-28",
+		"Tuesday": "Acts:1-2",
+		"Wednesday": "Heb:8-10",
+		"Thursday": "2_Sam:15-19",
+		"Friday": "Ps:57-59",
+		"Saturday": "Acts:3-4"
+	},
+	{
+		"Week": "21",
+		"Sunday": "Heb:11-13",
+		"Monday": "Ex:29-32",
+		"Tuesday": "Acts:5-6",
+		"Wednesday": "James",
+		"Thursday": "2_Sam:20-24",
+		"Friday": "Ps:60-62",
+		"Saturday": "Acts:7-8"
+	},
+	{
+		"Week": "22",
+		"Sunday": "1_Peter",
+		"Monday": "Ex:33-36",
+		"Tuesday": "Acts:9-10",
+		"Wednesday": "2_Peter",
+		"Thursday": "1_Kin:1-4",
+		"Friday": "Ps:63-65",
+		"Saturday": "Acts:11-12"
+	},
+	{
+		"Week": "23",
+		"Sunday": "1_John",
+		"Monday": "Ex:37-40",
+		"Tuesday": "Acts:13-14",
+		"Wednesday": "2_John",
+		"Thursday": "1_Kin:5-9",
+		"Friday": "Ps:66-68",
+		"Saturday": "Acts:15-16"
+	},
+	{
+		"Week": "24",
+		"Sunday": "3_John",
+		"Monday": "Lev:1-3",
+		"Tuesday": "Acts:17-18",
+		"Wednesday": "Jude",
+		"Thursday": "1_Kin:10-13",
+		"Friday": "Ps:69-71",
+		"Saturday": "Acts:19-20"
+	},
+	{
+		"Week": "25",
+		"Sunday": "Rev:1-6",
+		"Monday": "Lev:4-6",
+		"Tuesday": "Acts:21-22",
+		"Wednesday": "Rev:7-11",
+		"Thursday": "1_Kin:14-18",
+		"Friday": "Ps:72-74",
+		"Saturday": "Acts:23-24"
+	},
+	{
+		"Week": "26",
+		"Sunday": "Rev:12-17",
+		"Monday": "Lev:7-9",
+		"Tuesday": "Acts:25-26",
+		"Wednesday": "Rev:18-22",
+		"Thursday": "1_Kin:19-22",
+		"Friday": "Ps:75-77",
+		"Saturday": "Acts:27-28"
+	},
+	{
+		"Week": "27",
+		"Sunday": "Rom:1-2",
+		"Monday": "Lev:10-12",
+		"Tuesday": "Matt:1-2",
+		"Wednesday": "Rom:3-4",
+		"Thursday": "2_Kin:1-5",
+		"Friday": "Ps:78-80",
+		"Saturday": "Matt:3-4"
+	},
+	{
+		"Week": "28",
+		"Sunday": "Rom:5-6",
+		"Monday": "Lev:13-15",
+		"Tuesday": "Matt:5-7",
+		"Wednesday": "Rom:7-8",
+		"Thursday": "2_Kin:6-10",
+		"Friday": "Ps:81-83",
+		"Saturday": "Matt:8-10"
+	},
+	{
+		"Week": "29",
+		"Sunday": "Rom:9-10",
+		"Monday": "Lev:16-18",
+		"Tuesday": "Matt:11-13",
+		"Wednesday": "Rom:11-12",
+		"Thursday": "2_Kin:11-15",
+		"Friday": "Ps:84-86",
+		"Saturday": "Matt:14-16"
+	},
+	{
+		"Week": "30",
+		"Sunday": "Rom:13-14",
+		"Monday": "Lev:19-21",
+		"Tuesday": "Matt:17-19",
+		"Wednesday": "Rom:15-16",
+		"Thursday": "2_Kin:16-20",
+		"Friday": "Ps:87-89",
+		"Saturday": "Matt:20-22"
+	},
+	{
+		"Week": "31",
+		"Sunday": "1_Cor:1-2",
+		"Monday": "Lev:22-24",
+		"Tuesday": "Matt:23-25",
+		"Wednesday": "1_Cor:3-4",
+		"Thursday": "2_Kin:21-25",
+		"Friday": "Ps:90-92",
+		"Saturday": "Matt:26-28"
+	},
+	{
+		"Week": "32",
+		"Sunday": "1_Cor:5-6",
+		"Monday": "Lev:25-27",
+		"Tuesday": "Mark:1-2",
+		"Wednesday": "1_Cor:7-8",
+		"Thursday": "1_Chr:1-4",
+		"Friday": "Ps:93-95",
+		"Saturday": "Mark:3-4"
+	},
+	{
+		"Week": "33",
+		"Sunday": "1_Cor:9-10",
+		"Monday": "Num:1-4",
+		"Tuesday": "Mark:5-6",
+		"Wednesday": "1_Cor:11-12",
+		"Thursday": "1_Chr:5-9",
+		"Friday": "Ps:96-98",
+		"Saturday": "Mark:7-8"
+	},
+	{
+		"Week": "34",
+		"Sunday": "1_Cor:13-14",
+		"Monday": "Num:5-8",
+		"Tuesday": "Mark:9-10",
+		"Wednesday": "1_Cor:15-16",
+		"Thursday": "1_Chr:10-14",
+		"Friday": "Ps:99-101",
+		"Saturday": "Mark:11-12"
+	},
+	{
+		"Week": "35",
+		"Sunday": "2_Cor:1-3",
+		"Monday": "Num:9-12",
+		"Tuesday": "Mark:13-14",
+		"Wednesday": "2_Cor:4-5",
+		"Thursday": "1_Chr:15-19",
+		"Friday": "Ps:102-104",
+		"Saturday": "Mark:15-16"
+	},
+	{
+		"Week": "36",
+		"Sunday": "2_Cor:6-8",
+		"Monday": "Num:13-16",
+		"Tuesday": "Luke:1-2",
+		"Wednesday": "2_Cor:9-10",
+		"Thursday": "1_Chr:20-24",
+		"Friday": "Ps:105-107",
+		"Saturday": "Luke:3-4"
+	},
+	{
+		"Week": "37",
+		"Sunday": "2_Cor:11-13",
+		"Monday": "Num:17-20",
+		"Tuesday": "Luke:5-6",
+		"Wednesday": "Gal:1-3",
+		"Thursday": "1_Chr:25-29",
+		"Friday": "Ps:108-110",
+		"Saturday": "Luke:7-8"
+	},
+	{
+		"Week": "38",
+		"Sunday": "Gal:4-6",
+		"Monday": "Num:21-24",
+		"Tuesday": "Luke:9-10",
+		"Wednesday": "Eph:1-3",
+		"Thursday": "2_Chr:1-5",
+		"Friday": "Ps:111-113",
+		"Saturday": "Luke:11-12"
+	},
+	{
+		"Week": "39",
+		"Sunday": "Eph:4-6",
+		"Monday": "Num:25-28",
+		"Tuesday": "Luke:13-14",
+		"Wednesday": "Phil:1-2",
+		"Thursday": "2_Chr:6-10",
+		"Friday": "Ps:114-116",
+		"Saturday": "Luke:15-16"
+	},
+	{
+		"Week": "40",
+		"Sunday": "Phil:3-4",
+		"Monday": "Num:29-32",
+		"Tuesday": "Luke:17-18",
+		"Wednesday": "Col:1-2",
+		"Thursday": "2_Chr:11-15",
+		"Friday": "Ps:117-118",
+		"Saturday": "Luke:19-20"
+	},
+	{
+		"Week": "41",
+		"Sunday": "Col:3-4",
+		"Monday": "Num:33-36",
+		"Tuesday": "Luke:21-22",
+		"Wednesday": "1_Thes:1-3",
+		"Thursday": "2_Chr:16-20",
+		"Friday": "Ps:119",
+		"Saturday": "Luke:23-24"
+	},
+	{
+		"Week": "42",
+		"Sunday": "1_Thes:4-5",
+		"Monday": "Deut:1-3",
+		"Tuesday": "John:1-2",
+		"Wednesday": "2_Thes",
+		"Thursday": "2_Chr:21-24",
+		"Friday": "Ps:120-121",
+		"Saturday": "John:3-4"
+	},
+	{
+		"Week": "43",
+		"Sunday": "1_Tim:1-3",
+		"Monday": "Deut:4-6",
+		"Tuesday": "John:5-6",
+		"Wednesday": "1_Tim:4-6",
+		"Thursday": "2_Chr:25-28",
+		"Friday": "Ps:122-124",
+		"Saturday": "John:7-9"
+	},
+	{
+		"Week": "44",
+		"Sunday": "2_Tim:1-2",
+		"Monday": "Deut:7-9",
+		"Tuesday": "John:10-12",
+		"Wednesday": "2_Tim:3-4",
+		"Thursday": "2_Chr:29-32",
+		"Friday": "Ps:125-127",
+		"Saturday": "John:13-15"
+	},
+	{
+		"Week": "45",
+		"Sunday": "Titus_Philemon",
+		"Monday": "Deut:10-12",
+		"Tuesday": "John:16-18",
+		"Wednesday": "Heb:1-4",
+		"Thursday": "2_Chr:33-36",
+		"Friday": "Ps:128-130",
+		"Saturday": "John:19-21"
+	},
+	{
+		"Week": "46",
+		"Sunday": "Heb:5-7",
+		"Monday": "Deut:13-15",
+		"Tuesday": "Acts:1-2",
+		"Wednesday": "Heb:8-10",
+		"Thursday": "Ezra:1-5",
+		"Friday": "Ps:131-133",
+		"Saturday": "Acts:3-4"
+	},
+	{
+		"Week": "47",
+		"Sunday": "Heb:11-13",
+		"Monday": "Deut:16-19",
+		"Tuesday": "Acts:5-6",
+		"Wednesday": "James",
+		"Thursday": "Ezra:6-10",
+		"Friday": "Ps:134-136",
+		"Saturday": "Acts:7-8"
+	},
+	{
+		"Week": "48",
+		"Sunday": "1_Peter",
+		"Monday": "Deut:20-22",
+		"Tuesday": "Acts:9-10",
+		"Wednesday": "2_Peter",
+		"Thursday": "Neh:1-4",
+		"Friday": "Ps:137-139",
+		"Saturday": "Acts:11-12"
+	},
+	{
+		"Week": "49",
+		"Sunday": "1_John",
+		"Monday": "Deut:23-25",
+		"Tuesday": "Acts:13-14",
+		"Wednesday": "2_John",
+		"Thursday": "Neh:5-9",
+		"Friday": "Ps:140-142",
+		"Saturday": "Acts:14-16"
+	},
+	{
+		"Week": "50",
+		"Sunday": "3_John",
+		"Monday": "Deut:26-28",
+		"Tuesday": "Acts:17-18",
+		"Wednesday": "Jude",
+		"Thursday": "Neh:10-13",
+		"Friday": "Ps:143-145",
+		"Saturday": "Acts:19-20"
+	},
+	{
+		"Week": "51",
+		"Sunday": "Rev:1-6",
+		"Monday": "Deut:29-31",
+		"Tuesday": "Acts:21-22",
+		"Wednesday": "Rev:7-11",
+		"Thursday": "Esther:1-5",
+		"Friday": "Ps:146-148",
+		"Saturday": "Acts:23-24"
+	},
+	{
+		"Week": "52",
+		"Sunday": "Rev:12-17",
+		"Monday": "Deut:32-34",
+		"Tuesday": "Acts:25-26",
+		"Wednesday": "Rev:18-22",
+		"Thursday": "Esther:6-10",
+		"Friday": "Ps:149-150",
+		"Saturday": "Acts:27-28"
+	}
+]

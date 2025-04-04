@@ -3,41 +3,37 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^0.0.0-insiders.5eb3b12",
-    "@heroicons/react": "^0.0.0-insiders.56c073c",
-    "clsx": "^2.1.1",
-    "cookies-next": "^4.3.0",
-    "next": "14.2.15",
-    "next-auth": "^4.24.8",
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/roboto": "^5.1.0",
+    "@mui/icons-material": "^7.0.0",
+    "@mui/material": "^7.0.0",
+    "@mui/material-nextjs": "^7.0.0",
+    "@mui/x-data-grid": "^7.28.3",
+    "cookies-next": "^5.0.2",
+    "next": "^15.1.2",
+    "next-auth": "^4.24.11",
     "pino": "^9.5.0",
-    "react": "^18",
-    "react-dom": "^18"
-  },
-  "engines": {
-    "node": ">= 20.0.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-perfect-scrollbar": "^1.5.8",
+    "recharts": "^2.15.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.13.0",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "@typescript-eslint/parser": "^8.10.0",
-    "eslint": "^9.13.0",
-    "eslint-config-next": "14.2.15",
-    "eslint-plugin-react": "^7.37.1",
-    "globals": "^15.11.0",
-    "postcss": "^8",
-    "prettier": "^3.3.3",
-    "prettier-eslint": "^16.3.0",
-    "prettier-plugin-tailwindcss": "^0.6.8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5",
-    "typescript-eslint": "^8.10.0"
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.2",
+    "typescript": "^5"
   }
 }
+
